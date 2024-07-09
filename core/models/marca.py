@@ -5,4 +5,4 @@ class Marca (models.Model):
 
 
     def __str__(self) :
-        return f'{self.nome} ({self.id})'
+        return f'{self.nome.upper()} ({self.id})'
